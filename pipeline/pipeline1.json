@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "mypipeline-to-netap",
+				"name": "mypipeline-to-netappo",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
