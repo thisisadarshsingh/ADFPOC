@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafact-1111"
+		},
+		"FileServer1_password": {
+			"value": ""
+		},
+		"Linked_sr_AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"linked-serviceto-container_connectionString": {
+			"value": ""
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"value": "\\\\mystorageactest11.file.core.windows.net\\netappfile"
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"value": "localhost\\mystorageactest11"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/fc9238f5-4332-4565-85ae-a892f06020c7/resourceGroups/app-grp-adarsh/providers/Microsoft.Storage/storageAccounts/terraformstoread11111"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
