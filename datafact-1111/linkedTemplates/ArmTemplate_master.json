@@ -58,14 +58,14 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"FileServer1_password": {
+						"value": "[parameters('FileServer1_password')]"
+					},
 					"Linked_sr_AzureBlobStorage1_connectionString": {
 						"value": "[parameters('Linked_sr_AzureBlobStorage1_connectionString')]"
 					},
 					"linked-serviceto-container_connectionString": {
 						"value": "[parameters('linked-serviceto-container_connectionString')]"
-					},
-					"FileServer1_password": {
-						"value": "[parameters('FileServer1_password')]"
 					},
 					"FileServer1_properties_typeProperties_host": {
 						"value": "[parameters('FileServer1_properties_typeProperties_host')]"
