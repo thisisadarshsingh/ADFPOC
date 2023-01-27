@@ -1,0 +1,17 @@
+{
+	"name": "FileServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "\\\\mystorageactest11.file.core.windows.net\\netappfile",
+			"userId": "localhost\\mystorageactest11",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhM2VhMjI0NC1mNWM1LTQ1NGUtYjRjNi05NDYzMzEwYTY2YzIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "onprem",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/myfiles/blobs/",
+			"blobPathEndsWith": "*.parquet",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/fc9238f5-4332-4565-85ae-a892f06020c7/resourceGroups/app-grp-adarsh/providers/Microsoft.Storage/storageAccounts/terraformstoread11111",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
